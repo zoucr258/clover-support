@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clover Remote 支持</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; padding: 32px 20px 64px; font: 16px/1.7 -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif; color: #1c1c1e; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #f2f2f7; background: #000; } a { color: #6ea8fe; } }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .sub { color: #8e8e93; margin: 0 0 32px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  code { background: rgba(127,127,127,.15); padding: 1px 5px; border-radius: 4px; font-size: 90%; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid rgba(127,127,127,.25); color: #8e8e93; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Clover Remote 支持</h1>
+  <p class="sub">Clover 无损音乐播放器的手机遥控端 · iOS</p>
+
+  <h2>这个 App 是做什么的</h2>
+  <p>Clover Remote 用来控制同一局域网内的 <strong>Clover 无损音乐播放器</strong>（RK3576 硬件）。
+     手机负责发现设备、展示控制台、在锁屏与灵动岛显示正在播放的内容。</p>
+  <p><strong>它不能单独播放音乐</strong>——需要配合 Clover 播放器硬件使用。</p>
+
+  <h2>常见问题</h2>
+  <ul>
+    <li><strong>找不到设备？</strong> 确认手机和播放器连的是同一个 Wi-Fi；首次打开要允许「本地网络」权限（设置 → Clover Remote → 本地网络）。</li>
+    <li><strong>能手动连接吗？</strong> 可以。在连接页直接输入播放器的地址，例如 <code>192.168.31.19:8765</code>。</li>
+    <li><strong>锁屏/灵动岛不显示？</strong> 需要 iOS 16.1 以上，并在系统设置里允许 Clover Remote 的「实时活动」。</li>
+    <li><strong>网页控制台空白？</strong> 播放器固件版本过旧时页面可能不兼容，升级播放器后重试。</li>
+    <li><strong>换网络后连不上？</strong> 播放器地址由路由器分配，换网段后会变化，重新发现或手动输入新地址即可。</li>
+  </ul>
+
+  <h2>联系我们</h2>
+  <p>问题反馈、功能建议、Bug 报告：<a href="mailto:zx82335442@gmail.com">zx82335442@gmail.com</a></p>
+  <p>一般 2 个工作日内回复。反馈时请附上：iOS 版本、播放器型号/固件版本、复现步骤。</p>
+
+  <footer>
+    <a href="./privacy.html">隐私政策</a> · © 2026 Chengrui Zou
+  </footer>
+</main>
+</body>
+</html>
